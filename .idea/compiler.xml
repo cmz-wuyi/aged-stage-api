@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="platform-service" />
+        <module name="platform-common" />
+        <module name="platform-interaction" />
+        <module name="platform-repository" />
+        <module name="platform-api-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aged-stage-api" target="1.8" />
+      <module name="platform-api-web" target="1.8" />
+      <module name="platform-common" target="1.8" />
+      <module name="platform-interaction" target="1.8" />
+      <module name="platform-repository" target="1.8" />
+      <module name="platform-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="platform-api-web" options="-parameters" />
+      <module name="platform-common" options="-parameters" />
+      <module name="platform-interaction" options="-parameters" />
+      <module name="platform-repository" options="-parameters" />
+      <module name="platform-service" options="-parameters" />
+    </option>
+  </component>
+</project>

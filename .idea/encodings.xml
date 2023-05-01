@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/aged-stage-api/platform-api-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aged-stage-api/platform-api-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aged-stage-api/platform-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aged-stage-api/platform-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aged-stage-api/platform-interaction/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aged-stage-api/platform-interaction/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aged-stage-api/platform-repository/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aged-stage-api/platform-repository/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aged-stage-api/platform-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aged-stage-api/platform-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aged-stage-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aged-stage-api/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

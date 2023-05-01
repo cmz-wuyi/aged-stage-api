@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aged-stage-api/aged-stage-api.iml" filepath="$PROJECT_DIR$/aged-stage-api/aged-stage-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aged-stage-api/platform-api-web/platform-api-web.iml" filepath="$PROJECT_DIR$/aged-stage-api/platform-api-web/platform-api-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aged-stage-api/platform-common/platform-common.iml" filepath="$PROJECT_DIR$/aged-stage-api/platform-common/platform-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aged-stage-api/platform-interaction/platform-interaction.iml" filepath="$PROJECT_DIR$/aged-stage-api/platform-interaction/platform-interaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aged-stage-api/platform-repository/platform-repository.iml" filepath="$PROJECT_DIR$/aged-stage-api/platform-repository/platform-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aged-stage-api/platform-service/platform-service.iml" filepath="$PROJECT_DIR$/aged-stage-api/platform-service/platform-service.iml" />
+    </modules>
+  </component>
+</project>

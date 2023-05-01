@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>aged-stage-api</artifactId>
+        <groupId>cn.age.main</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <description>管理平台service层</description>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>jar</packaging>
+    <artifactId>platform-service</artifactId>
+    <version>${project.build.version}</version>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>AliYunMaven</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+            <layout>default</layout>
+            <!-- 是否开启发布版构件下载 -->
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <!-- 是否开启快照版构件下载 -->
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <artifactId>platform-common</artifactId>
+            <groupId>cn.age.main</groupId>
+            <version>${project.build.version}</version>
+        </dependency>
+        <dependency>
+            <artifactId>platform-repository</artifactId>
+            <groupId>cn.age.main</groupId>
+            <version>${project.build.version}</version>
+        </dependency>
+        <dependency>
+            <artifactId>platform-interaction</artifactId>
+            <groupId>cn.age.main</groupId>
+            <version>${project.build.version}</version>
+        </dependency>
+    </dependencies>
+</project>
